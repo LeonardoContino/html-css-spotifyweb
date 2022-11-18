@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* utilitis */
+.flex {
+  display: flex;
+}
+.border {
+  border: 2px dashed red;
+}
+/* main */
+main {
+  width: 100%;
+  height: 100%;
+}
+.navbar-left {
+  flex-basis: 400px;
+  z-index: 1;
+  background-color: black;
+}
+.big-main {
+  flex-basis: 100%;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background-color: RGB(8, 11, 17);
+  opacity: 0.5;
+}
+.playlist {
+  height: 100%;
+  overflow: scroll;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  height: 100px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 150px;
+}
