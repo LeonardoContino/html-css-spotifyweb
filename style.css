@@ -125,6 +125,15 @@ footer {
   background-color: black;
   height: 100px;
 }
+.footer-listen {
+  flex-basis: 30%;
+}
+.footer-player {
+  flex-basis: 40%;
+}
+.footer-sound {
+  flex-basis: 30%;
+}
 
 /* responsive */
 
