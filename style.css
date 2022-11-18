@@ -13,15 +13,35 @@
 .radius-50 {
   border-radius: 50%;
 }
-/* main */
-main {
-  width: 100%;
-}
+/* side-bar */
 .side-bar {
   flex-basis: 200px;
   flex-shrink: 0;
   z-index: 1;
   background-color: black;
+  position: relative;
+}
+.logo {
+  min-height: 80px;
+}
+.list-bar {
+  min-height: 120px;
+}
+.list-playlist {
+  min-height: 300px;
+}
+.profile {
+  position: absolute;
+  bottom: 0;
+
+  left: 0;
+  right: 0;
+  height: 80px;
+}
+
+/* main */
+main {
+  width: 100%;
 }
 .big-main {
   flex-grow: 1;
