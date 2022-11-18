@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+}
 /* utilitis */
 .flex {
   display: flex;
@@ -22,10 +25,27 @@
   position: relative;
 }
 .logo {
-  min-height: 80px;
+  height: 90px;
 }
+.logo > img {
+  height: 60px;
+  padding: 10px;
+}
+.logo > img:last-child {
+  display: none;
+}
+
 .list-bar {
   min-height: 120px;
+  padding: 20px;
+  color: white;
+  flex-direction: column;
+}
+.list-item > img {
+  height: 40px;
+}
+.list-item {
+  align-items: center;
 }
 .list-playlist {
   min-height: 300px;
@@ -154,5 +174,16 @@ footer {
   .pl-img {
     width: 200px;
     height: 200px;
+  }
+  .logo {
+    justify-content: center;
+    align-items: center;
+  }
+  .logo > img:last-child {
+    display: flex;
+  }
+  h4,
+  .logo > img:first-child {
+    display: none;
   }
 }
