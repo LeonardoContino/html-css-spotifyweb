@@ -139,6 +139,7 @@ main {
   align-items: center;
   padding: 20px 0;
   flex-wrap: wrap;
+  color: RGB(105, 108, 113);
 }
 .nav-bar > ul {
   list-style-type: none;
