@@ -227,8 +227,25 @@ footer {
 }
 .footer-sound {
   flex-basis: 30%;
+  color: white;
+  align-items: center;
+  justify-content: flex-end;
 }
+.icon-footer-right {
+  padding: 20px;
 
+  justify-content: flex-end;
+}
+.icon-footer-right > .fa-solid {
+  padding: 5px;
+}
+.bar-volume {
+  flex-basis: 150px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: RGB(89, 89, 89);
+  margin-right: 10px;
+}
 /* responsive */
 
 /* resp 878px */
