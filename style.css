@@ -24,6 +24,7 @@ body {
   background-color: black;
   position: relative;
   color: white;
+  padding: 20px;
 }
 .logo {
   height: 90px;
@@ -38,7 +39,7 @@ body {
 
 .list-bar {
   min-height: 120px;
-  padding: 20px;
+  margin-bottom: 20px;
   color: white;
   flex-direction: column;
 }
@@ -50,14 +51,53 @@ body {
 }
 .list-playlist {
   min-height: 300px;
+  color: RGB(163, 163, 163);
+}
+.fa-plus {
+  padding: 10px;
+  background-color: RGB(163, 163, 163);
+  color: black;
+  margin-bottom: 10px;
+}
+.pl-name {
+  overflow-y: auto;
+}
+.pl-name > h4 {
+  color: RGB(163, 163, 163);
+  padding-bottom: 20px;
 }
 .profile {
   position: absolute;
   bottom: 0;
-
   left: 0;
   right: 0;
-  height: 80px;
+  padding: 20px;
+  color: RGB(163, 163, 163);
+}
+.profile > img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+hr {
+  margin: 10px 0;
+}
+.logo-profile {
+  background-color: gray;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.logo-profile > img {
+  height: 35px;
+}
+.name-account {
+  color: white;
 }
 
 /* main */
@@ -167,6 +207,17 @@ footer {
 @media screen and (max-width: 552px) {
   .side-bar {
     flex-basis: 50px;
+    text-align: center;
+  }
+  .profile > hr,
+  span {
+    display: none;
+  }
+  .logo-profile {
+    margin-top: 20px;
+  }
+  .list-playlist {
+    display: none;
   }
   .playlist-box {
     flex-basis: calc(100% / 2);
