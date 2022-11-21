@@ -117,17 +117,16 @@ main {
 }
 .pl-music {
   flex-wrap: wrap;
-  flex-grow: 1;
-
-  gap: 10px;
-  margin-bottom: 20px;
+  justify-content: space-evenly;
 }
 .playlist-box {
   flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
 .pl-img {
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
 }
 .pl-img > img {
   height: 100%;
