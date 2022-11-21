@@ -197,7 +197,7 @@ footer {
   height: 100px;
 }
 .footer-listen {
-  flex-basis: 30%;
+  flex-basis: 20%;
   padding: 20px;
   align-items: center;
 }
@@ -212,7 +212,7 @@ footer {
 }
 .img-listen-text {
   color: white;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 .img-listen-text > h5,
 .icon-footer-left {
@@ -223,10 +223,10 @@ footer {
 }
 
 .footer-player {
-  flex-basis: 40%;
+  flex-basis: 50%;
 }
 .footer-sound {
-  flex-basis: 30%;
+  flex-basis: 600px;
   color: white;
   align-items: center;
   justify-content: flex-end;
