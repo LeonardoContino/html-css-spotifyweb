@@ -50,8 +50,9 @@ body {
   align-items: center;
 }
 .list-playlist {
-  min-height: 300px;
+  height: 200px;
   color: RGB(163, 163, 163);
+  overflow-y: auto;
 }
 .fa-plus {
   padding: 10px;
@@ -60,11 +61,11 @@ body {
   margin-bottom: 10px;
 }
 .pl-name {
-  overflow-y: auto;
+  height: 100%;
 }
 .pl-name > h4 {
   color: RGB(163, 163, 163);
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .profile {
   position: absolute;
