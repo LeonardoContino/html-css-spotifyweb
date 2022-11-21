@@ -174,9 +174,21 @@ main {
 }
 .pl-title > h3 {
   padding-bottom: 10px;
+  font-weight: 600;
+}
+.pl-title > h5 {
+  color: RGB(105, 108, 113);
 }
 .pl-s-box {
   gap: 10px;
+}
+.title-section-pl {
+  font-weight: bold;
+  padding: 20px 0;
+}
+.title-section-pl > h5 {
+  color: RGB(105, 108, 113);
+  padding: 10px 0;
 }
 
 /* footer */
