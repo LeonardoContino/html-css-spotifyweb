@@ -266,6 +266,17 @@ footer {
   .icon-footer-left {
     flex-direction: column;
   }
+  .icon-footer-right {
+    padding: 5px;
+
+    justify-content: flex-end;
+  }
+  .icon-footer-right > .fa-solid {
+    padding: 5px;
+  }
+  .bar-volume {
+    margin-right: 2px;
+  }
 }
 /* responsive 552px */
 @media screen and (max-width: 552px) {
