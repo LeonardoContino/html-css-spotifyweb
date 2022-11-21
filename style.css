@@ -195,6 +195,7 @@ main {
 footer {
   background-color: black;
   height: 100px;
+  justify-content: space-between;
 }
 .footer-listen {
   flex-basis: 20%;
@@ -224,9 +225,10 @@ footer {
 
 .footer-player {
   flex-basis: 50%;
+  justify-content: center;
 }
 .footer-sound {
-  flex-basis: 600px;
+  flex-basis: 300px;
   color: white;
   align-items: center;
   justify-content: flex-end;
