@@ -196,6 +196,7 @@ footer {
   background-color: black;
   height: 100px;
   justify-content: space-between;
+  width: 100%;
 }
 .footer-listen {
   flex-basis: 20%;
@@ -225,7 +226,30 @@ footer {
 
 .footer-player {
   flex-basis: 50%;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.player-icon {
+  font-size: 30px;
+  width: 100%;
   justify-content: center;
+}
+.player-icon > * {
+  padding: 0 20px;
+}
+.player-bar {
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.bars-time {
+  width: 50%;
+  height: 5px;
+  border-radius: 20px;
+  background-color: RGB(89, 89, 89);
+  margin: 0 20px;
 }
 .footer-sound {
   flex-basis: 300px;
@@ -255,6 +279,9 @@ footer {
 @media screen and (max-width: 878px) {
   .playlist-box {
     flex-basis: calc(100% / 4);
+  }
+  footer {
+    flex-basis: calc(100% / 3);
   }
 }
 /* responsive 639 */
