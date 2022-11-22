@@ -301,11 +301,15 @@ footer {
   transition: 0.5s;
   opacity: 0.6;
 }
+.pl-img {
+  position: relative;
+}
 .pl-img:hover::after {
   content: "\f144";
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  left: 40%;
+  bottom: 40%;
+
   color: white;
   font-size: 28px;
 }
