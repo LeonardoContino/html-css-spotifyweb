@@ -153,7 +153,8 @@ main {
 .nav-bar li {
   cursor: pointer;
 }
-#border-green {
+
+.btn-green {
   border-bottom: 2px solid green;
 }
 
@@ -170,6 +171,7 @@ main {
   margin-bottom: 20px;
   padding: 0 15px;
   flex-basis: calc(100% / 6);
+  cursor: pointer;
 }
 
 .pl-img > img {
@@ -288,6 +290,11 @@ footer {
 .header a:hover {
   transform: scale(1.1);
 }
+.nav-bar li:hover {
+  color: white;
+  transition: 0.5s;
+}
+/* main song */
 
 /* responsive */
 
@@ -374,7 +381,9 @@ footer {
   .logo > img:first-child {
     display: none;
   }
-
+  .player-icon {
+    justify-content: space-around;
+  }
   .icon-footer-left {
     flex-direction: column;
   }
