@@ -297,7 +297,18 @@ footer {
 /* main song */
 
 /* responsive */
-
+.playlist-box .pl-img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  opacity: 0.6;
+}
+.pl-img img:hover::after {
+  content: "\f144";
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+}
 /* resp 878px */
 
 @media screen and (max-width: 878px) {
