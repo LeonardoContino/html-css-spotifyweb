@@ -41,7 +41,7 @@ body {
 .list-bar {
   min-height: 120px;
   margin-bottom: 20px;
-  color: white;
+  color: gray;
   flex-direction: column;
 }
 .list-item > img {
@@ -290,25 +290,34 @@ footer {
 .header a:hover {
   transform: scale(1.1);
 }
+
 .nav-bar li:hover {
   color: white;
   transition: 0.5s;
 }
 /* main song */
-
-/* responsive */
 .playlist-box .pl-img:hover {
   transform: scale(1.05);
   transition: 0.5s;
   opacity: 0.6;
 }
-.pl-img img:hover::after {
+.pl-img:hover::after {
   content: "\f144";
   display: flex;
   justify-content: center;
+  align-items: center;
   color: white;
   font-size: 28px;
 }
+
+/* list item */
+.list-item:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+/* responsive */
+
 /* resp 878px */
 
 @media screen and (max-width: 878px) {
