@@ -301,17 +301,22 @@ footer {
   transition: 0.5s;
   opacity: 0.6;
 }
-.pl-img {
+.playlist-box .pl-img {
   position: relative;
 }
-.pl-img:hover::after {
+.playlist-box .pl-img:hover::after {
   content: "\f144";
-  position: absolute;
-  left: 40%;
-  bottom: 40%;
-
+  display: flex;
+  font-family: "Font Awesome 6 Free";
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 28px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 /* list item */
