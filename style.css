@@ -261,6 +261,7 @@ footer {
   border-radius: 20px;
   background-color: RGB(89, 89, 89);
   margin: 0 20px;
+  position: relative;
 }
 .footer-sound {
   flex-basis: 20%;
@@ -282,6 +283,7 @@ footer {
   border-radius: 20px;
   background-color: RGB(89, 89, 89);
   margin-right: 10px;
+  position: relative;
 }
 
 /* effetti hover */
@@ -323,6 +325,70 @@ footer {
 .list-item:hover {
   color: white;
   transition: 0.5s;
+}
+.list-playlist > span:hover {
+  color: white;
+}
+.pl-name > h4:hover {
+  color: white;
+}
+/* footer hover */
+.img-listen-text > h5:hover {
+  text-decoration: underline;
+  color: white;
+}
+.icon-footer-left > i:hover {
+  color: white;
+  cursor: pointer;
+}
+.player-icon .fa-play:hover {
+  transform: scale(1.2);
+  color: white;
+  transition: 0.5s;
+}
+.bar-change {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+}
+.pointer {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+.bar-change:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.bars-time:hover .pointer {
+  display: block;
+  background-color: lightgreen;
+}
+.cursor-v {
+  width: 20%;
+  position: absolute;
+  height: 100%;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+}
+.cursor-v:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.bar-volume:hover .pointer {
+  display: block;
+  background-color: lightgreen;
 }
 
 /* responsive */
